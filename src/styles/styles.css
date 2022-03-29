@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Raleway',sans-serif;
+    font-style: italic;
+    padding: auto;
+    
+}
+ 
+
+
+.logo{
+    width: 180px;
+}
+.logo img{
+    width: 100%;
+}
+.container_header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu nav ul{
+    display: flex;
+}
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.menu nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+.menu nav ul li a:hover{
+   
+    color: rgb(255, 0, 0);
+   
+}
+
+
+
+
+.column{
+    flex: 25%;
+    padding: 5px;
+    
+}
+
+.column img{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.portafolio{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 5px;
+    max-width: 1200px;
+}
+.contacto{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 50px;
+    
+}
+
+
+.contacto i {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.contacto i p{
+    padding: 10px;
+    font-size: 25px;
+}
+.sobremi{
+    color: white;
+    max-width: 1200px; 
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about{
+    
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+}
+.about h1{
+    justify-content: center;
+    display:flex;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+h1 .about, p{
+    color: white;
+    justify-content: center;
+    text-align: justify;
+    font-style: italic;
+    font-size: 20px;
+}
+.sobremi img {
+    width: 300px
+}
+
+.container_contacto{
+    display: flex;
+    justify-content: center;
+    
+}
+.container_contacto img{
+    width: 200px;
+    max-width: 400px;
+    min-width: 200px;
+    margin-left: -5%;
+    margin-top: 100px;
+}
+
+@media (max-width:1200px){ .column{
+    flex: 100%;
+padding: 10px;}}
+@media (max-width:800px){
+    .column{
+        flex: 60%;
+    padding: 10px;}}
+
+ @media (max-width:400px){
+        .column{
+            flex: 55%;
+        padding: 10px;}}
